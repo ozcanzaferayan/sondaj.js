@@ -1,5 +1,5 @@
 # sondaj.js
-Applies sampling operation that based on given element count to an array.
+Enables the sampling operation to be executed on an array based on the given element count.
 
 ## Usage
 
