@@ -1,4 +1,7 @@
 # sondaj.js
+
+[![npm version](https://badge.fury.io/js/sondaj.svg)](https://badge.fury.io/js/sondaj)
+
 Enables the sampling operation to be executed on an array based on the given element count.
 
 ## Usage
