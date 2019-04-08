@@ -3,10 +3,9 @@ Array.prototype.sondajla = function(samplingCount) {
   var tempSelected, indexOfSelected;
     for (i = this.length - 1; i >= 0; i--) {
       indexOfSelected = Math.floor((i + 1) * Math.random());
-        tempSelected = randomizedArray[indexOfSelected];
-        randomizedArray[indexOfSelected] = randomizedArray[i];
-        randomizedArray[i] = tempSelected;
-      console.log(randomizedArray);
+      tempSelected = randomizedArray[indexOfSelected];
+      randomizedArray[indexOfSelected] = randomizedArray[i];
+      randomizedArray[i] = tempSelected;
     }
     return randomizedArray.slice(0, samplingCount);
 };
