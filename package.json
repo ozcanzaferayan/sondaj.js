@@ -1,0 +1,22 @@
+{
+  "name": "sondaj",
+  "version": "1.0.0",
+  "description": "Enables the sampling operation to be executed on an array based on the given element count.",
+  "main": "sondaj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozcanzaferayan/sondaj.js.git"
+  },
+  "keywords": [
+    "sampling"
+  ],
+  "author": "Zafer AYAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozcanzaferayan/sondaj.js/issues"
+  },
+  "homepage": "https://github.com/ozcanzaferayan/sondaj.js#readme"
+}
