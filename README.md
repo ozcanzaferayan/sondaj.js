@@ -7,6 +7,25 @@ Enables the sampling operation to be executed on an array based on the given ele
 ## Demo
 [Demo page](https://ozcanzaferayan.github.io/sondaj.js/)
 
+## Installation
+
+### NPM
+```bash
+npm i sondaj
+```
+### CDN
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A sample app for sampling operation</title>
+</head>
+<body>
+    <script type="text/javascript" src="https://unpkg.com/sondaj@1.0.0/sondaj.js"></script>
+</body>
+</html>
+```
+
 ## Usage
 
 ```javaScript
