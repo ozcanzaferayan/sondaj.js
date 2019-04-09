@@ -1,1 +1,33 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A sample app for sampling operation</title>
+</head>
+<body>
+	<div>
+		<span>Sayılar:</span>
+		<input type="text" id="txtNumber" value="4 8 15 16 23 42" />
+	</div>
+	<div>
+		<span>Eleman sayısı:</span>
+		<input type="number" id="txtSamplingCount" value="3" />
+	</div>
+	<div>
+	    <button onclick="sondajla()">Sondajla</button>
+    </div>
+    <div>
+		<span>Sondajlama sonucu:</span>
+		<span id="result"></span>
+	</div>
+	<script type="text/javascript" src="https://unpkg.com/sondaj@1.0.0/sondaj.js"></script>
+	<script type="text/javascript">
+		function sondajla() {
+			var value = document.getElementById('txtNumber').value;
+			var samplingCount = document.getElementById('txtSamplingCount').value;
+			document.getElementById('result').innerText = value.split(' ').sondajla(samplingCount).join(', ');
+		}
+		sondajla();
+	</script>
+
+</body>
+</html>
