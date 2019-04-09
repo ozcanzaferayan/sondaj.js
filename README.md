@@ -4,6 +4,9 @@
 
 Enables the sampling operation to be executed on an array based on the given element count.
 
+## Demo
+[Demo page](https://ozcanzaferayan.github.io/sondaj.js/)
+
 ## Usage
 
 ```javaScript
